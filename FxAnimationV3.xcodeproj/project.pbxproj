@@ -662,6 +662,8 @@
 		DE22CDCA18A000C100979D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		DE22CDCC18A000C100979D75 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		DE22CDCD18A000C100979D75 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		DE9DE7A418ABD6150096D1F2 /* fxport.fla */ = {isa = PBXFileReference; lastKnownFileType = file; path = fxport.fla; sourceTree = "<group>"; };
+		DE9DE7A518ABD6150096D1F2 /* fxport.jsfl */ = {isa = PBXFileReference; lastKnownFileType = text; path = fxport.jsfl; sourceTree = "<group>"; };
 		DEBB644118A16DE200459617 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		DEBB644218A16DE200459617 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		DEBB644418A16DF300459617 /* FxAnimatedSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FxAnimatedSprite.h; path = Classes/FxAnimatedSprite.h; sourceTree = "<group>"; };
@@ -738,6 +740,7 @@
 		DE22CB3918A000BB00979D75 /* FxAnimationV3 */ = {
 			isa = PBXGroup;
 			children = (
+				DE9DE79F18ABD6150096D1F2 /* FlashAnimationExporter */,
 				DE22CB3A18A000BB00979D75 /* Resources */,
 				DE22CB6318A000BB00979D75 /* Libraries */,
 				DE22CDC818A000C100979D75 /* Classes */,
@@ -1581,6 +1584,15 @@
 				DE22CDCD18A000C100979D75 /* HelloWorldScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		DE9DE79F18ABD6150096D1F2 /* FlashAnimationExporter */ = {
+			isa = PBXGroup;
+			children = (
+				DE9DE7A418ABD6150096D1F2 /* fxport.fla */,
+				DE9DE7A518ABD6150096D1F2 /* fxport.jsfl */,
+			);
+			path = FlashAnimationExporter;
 			sourceTree = "<group>";
 		};
 		DEBB643F18A16DD100459617 /* FxAnimation */ = {
