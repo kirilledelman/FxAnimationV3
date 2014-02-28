@@ -69,7 +69,7 @@
             // find a sequence that starts with f - this signals the end
             for(NSString* sn in seqNames) {
                 NSInteger sf = [[_frameLabels objectForKey:sn] integerValue];
-                if(sf == f && ![sn isEqualToString:seqName]){
+                if(sf == f && ![sn isEqualToString:seqName] && !found){
                     found = true;
                     NSRange rng = NSMakeRange(startFrame, sf - startFrame);
                     [_sequenceRanges setObject:[NSValue value:&rng withObjCType:@encode(NSRange)]
