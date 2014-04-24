@@ -71,7 +71,7 @@
     
     // process frame comments
     NSInteger prevFrame = _frameNumber;
-    _frameNumber = floorf(_currentAnimation.fps * _animationTime);
+    _frameNumber = floorf(_currentAnimation.fps * _animationTime) + [_currentAnimation sequenceRange:_currentSequence].location;
     if(_frameNumber != prevFrame){
         NSString* fkey = [NSString stringWithFormat:@"%d", _frameNumber];
         NSString* fcomm = [_currentAnimation.frameComments objectForKey:fkey];
